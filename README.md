@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://www.mashed.com/img/gallery/the-real-difference-between-regular-popcorn-and-movie-theater-popcorn/intro-1592507709.jpg" alt="Movie Theater Popcorn" width="450">
+</p>
+
 ### Movie Recommendation with Topic Modeling and Sentence Transformers
 
 This project presents a complete workflow for building and evaluating content-based movie recommendation systems using both traditional topic modeling and modern transformer-based semantic similarity methods. The notebook walks through every major step, from text cleaning and feature engineering to named entity recognition, sentiment analysis, topic extraction, similarity computation, and critical evaluation. The primary objective is to demonstrate how natural language processing (NLP) techniques can be used to discover thematic, contextual, and emotional relationships between movies using only their plot descriptions.
@@ -5,6 +9,11 @@ This project presents a complete workflow for building and evaluating content-ba
 ### Overview
 
 Recommending movies based on plot, theme, and mood is a central challenge in content-based recommender systems. This project addresses the problem by comparing two main approaches: topic modeling (with NMF and TF-IDF) and deep semantic modeling (using Sentence Transformers). By transforming plot summaries into topic vectors or dense neural embeddings, and by extracting sentiment and entities, the solution enables robust matching and ranking of movies by their narrative, contextual, and emotional similarity. Key steps include text normalization, named entity recognition, sentiment analysis with both VADER and DistilBERT, feature extraction, topic assignment, and the computation of similarity scores for movie recommendations.
+
+### Getting Started
+
+To run this project on your own machine, begin by cloning or downloading the repository. Ensure that Python 3.12.3 (or a compatible Python 3.x version) is installed, then install all necessary dependencies using the included [requirements.txt](https://github.com/HamiHekmati/Top-Movies-NLP/blob/main/requirements.txt) file with the command:  <pre> ``` pip install -r requirements.txt ``` </pre> 
+Once your environment is set up, open the Jupyter notebook file [top_movies.ipynb](https://github.com/HamiHekmati/Top-Movies-NLP/blob/main/top_movies.ipynb) in Jupyter Notebook, JupyterLab, or upload it to Google Colab for a cloud-based workflow. Make sure the movie dataset file is located in the correct path as referenced in the notebook, and adjust the file path if necessary to match its actual location on your device. Run all notebook cells in sequence to walk through the full workflow, from text preprocessing and feature engineering to topic modeling, sentence embedding, recommendation generation, and result visualization. This setup enables you to fully reproduce the analysis, explore the code, and experiment with your own modifications.
 
 ### Dataset
 
